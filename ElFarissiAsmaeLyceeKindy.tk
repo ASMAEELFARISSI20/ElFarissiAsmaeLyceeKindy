@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>BTS EL KINDY - Accueil</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-repeat: no-repeat;
+            background-size: cover; 
+        }
+        html {
+            font-size: 62.5%;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        li {
+            font-size: 2rem;
+        }
+
+        header {
+            background: rgb(180, 229, 241);
+            color: rgb(49, 174, 206);
+            padding: 1rem;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        li {
+            margin: 0 1rem; 
+        }
+
+        #logo {
+            flex: 2 1 40rem;
+        }
+
+        .text {
+            background-color: whitesmoke;
+            padding: 70px 0;
+            color: black;
+            max-width: 90%;
+            margin: 0 auto;
+        }
+
+        .text h1 {
+            font-size: 3.75rem; 
+            font-weight: 700;
+            line-height: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .text p {
+            font-size: 1.5rem; 
+            line-height: 1.5;
+            letter-spacing: 1px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body  background="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\bts.png">
+    <header >
+        <nav>
+            <h1> BTS EL KINDY</h1><br>
+            <ul>
+                <li><a href="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\page1.html">Home</a></li>
+                <li><a href="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\page 2.html">Inscription</a></li>
+                <li><a href="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\page 3.html">Connexion</a></li>
+                <li><a href="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\page 4.html">A Propos de nous</a></li>
+                <li><a href="C:\Users\pc\Desktop\El Farissi_Asmae_DSI1\page 5.html">Contacter nous</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <di class="body.text">   
+         <section class="text">
+        <h1> BTS EL KINDY</h1><br><br><br>
+        <p>Nous sommes ravis de vous accueillir sur le site web officiel de BTS EL KINDY.<br> Découvrez notre école,
+             une communauté dynamique dédiée à fournir une éducation de qualité, en cultivant la curiosité, 
+             la créativité et l'excellence académique.<br> Notre équipe pédagogique passionnée s'engage à guider nos étudiants 
+             vers un avenir prometteur.</p>
+    </section></di>
+
+</body>
+</html>
